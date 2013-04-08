@@ -1,10 +1,7 @@
 import sbt._
 import sbt.Keys._
-import com.github.siasia.WebPlugin
 import com.zantekk.sbt.sbtzantekk.{ZantekkPlugin, ZantekkKeys}
-import com.zantekk.sbt.lift.{LiftPlugin, LiftKeys}
 import ZantekkKeys._
-import LiftKeys._
 
 object Build extends sbt.Build {
 
